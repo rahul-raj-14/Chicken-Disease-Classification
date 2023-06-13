@@ -25,7 +25,6 @@ class PrepareCallback:
             save_best_only=True
         )
     
-    @property
     def get_tb_ckpt_callbacks(self):
         return [
             self._create_tb_callbacks,
